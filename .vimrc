@@ -44,3 +44,7 @@ let mapleader='\'
 "NERDTree mappings
 command NT NERDTree
 nnoremap <F3> :NERDTreeToggle<cr>
+
+"Easy Motion Mapping
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
