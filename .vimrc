@@ -38,6 +38,8 @@ set background=dark
 
 "Mappings
 let mapleader='\'
+nnoremap <esc> :noh<return><esc>
+nnoremap <esc>^[ <esc>^[
 
 "vim-commentary mapping"
 
