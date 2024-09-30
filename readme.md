@@ -19,17 +19,17 @@ To run the installer run
 sudo chmod +x ./install.sh && sudo ./install.sh
 ```
 
-##Quick commands
+## Quick commands
 This config uses an assortment of vim plugins with some custom mappings, here are are a few comonly used commands
 
-###NERDTree
+### NERDTree
 To toggle file explorer on the side, press <F3>
 
-###vim-commentary
+### vim-commentary
 To comment a line out, press `gcc` on the line;
 To comment a block out, highlight the block in visual mode then type `gc`
 
-###vim-surround
+### vim-surround
 To replace the surrounding characters, use
 ```
 cs<target><replacement>
@@ -47,7 +47,7 @@ To delete surround characters, use
 ds<target>
 ```
 
-###Easy Motion
+### Easy Motion
 To move around, type
 ```
 \\s<target>
