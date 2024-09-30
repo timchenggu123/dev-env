@@ -47,3 +47,8 @@ To delete surround characters, use
 ds<target>
 ```
 
+###Easy Motion
+To move around, type
+```
+\\s<target>
+```
