@@ -23,7 +23,7 @@ sudo chmod +x ./install.sh && sudo ./install.sh
 This config uses an assortment of vim plugins with some custom mappings, here are are a few comonly used commands
 
 ### NERDTree
-To toggle file explorer on the side, press <F3>
+To toggle file explorer on the side, press `<F3>`
 
 ### vim-commentary
 To comment a line out, press `gcc` on the line;
