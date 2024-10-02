@@ -50,5 +50,6 @@ ds<target>
 ### Easy Motion
 To move around, type
 ```
-\\s<target>
+,
 ```
+Which will highlight every word on the screen. Selected the desired one and type the characters.

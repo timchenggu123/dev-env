@@ -26,11 +26,11 @@ Plug 'rakr/vim-one'
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
-
 call plug#end()
 
 colorscheme one
@@ -48,5 +48,4 @@ command NT NERDTree
 nnoremap <F3> :NERDTreeToggle<cr>
 
 "Easy Motion Mapping
-map  / <Plug>(easymotion-sn)
-omap / <Plug>(easymotion-tn)
+map , <Plug>(easymotion-bd-w)
