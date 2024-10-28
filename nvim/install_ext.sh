@@ -8,4 +8,3 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 cat ./init_ext >> ~/.config/nvim/init.lua
 nvim --headless "+PlugInstall" +qall
 
-
